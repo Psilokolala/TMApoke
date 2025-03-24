@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#FF0000" />
+    <meta name="description" content="Pokemon TMA - Collect and trade your favorite Pokemon" />
+    <title>Pokemon TMA</title>
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <script>
+      // Настройка Telegram Web App
+      if (window.Telegram && window.Telegram.WebApp) {
+        const webApp = window.Telegram.WebApp;
+        
+        // Настройка цветовой схемы
+        webApp.setColorScheme('dark');
+        
+        // Настройка заголовка
+        webApp.setHeader('Pokemon TMA');
+        
+        // Настройка кнопки закрытия
+        webApp.setBackButton();
+        
+        // Настройка главной кнопки
+        webApp.MainButton.show();
+        webApp.MainButton.setText('Connect Wallet');
+        
+        // Настройка статуса загрузки
+        webApp.ready();
+      }
+    </script>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+  </body>
+</html>
