@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Pokemon TMA
 
 Telegram Mini App с анимированной заставкой и интерактивным покеболом.
@@ -34,3 +35,6 @@ npm run build
 - Telegram Web App SDK
 - Framer Motion для анимаций
 - Styled Components для стилизации 
+=======
+
+>>>>>>> 414c409949acbae603fee1349b7c9120a553fba3

@@ -1,10 +1,19 @@
 {
   "files": {
+<<<<<<< HEAD
     "main.js": "/TMApoke/static/js/main.4b79830e.js",
     "index.html": "/TMApoke/index.html",
     "main.4b79830e.js.map": "/TMApoke/static/js/main.4b79830e.js.map"
   },
   "entrypoints": [
     "static/js/main.4b79830e.js"
+=======
+    "main.js": "/static/js/main.722ba7dd.js",
+    "index.html": "/index.html",
+    "main.722ba7dd.js.map": "/static/js/main.722ba7dd.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.722ba7dd.js"
+>>>>>>> 414c409949acbae603fee1349b7c9120a553fba3
   ]
 }

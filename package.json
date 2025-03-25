@@ -2,7 +2,11 @@
   "name": "pokemon-tma",
   "version": "1.0.0",
   "private": true,
+<<<<<<< HEAD
   "homepage": "https://psilokolala.github.io/TMApoke",
+=======
+  "homepage": "https://kila123.github.io/pokemon-tma",
+>>>>>>> 414c409949acbae603fee1349b7c9120a553fba3
   "dependencies": {
     "@tonconnect/sdk": "^2.1.3",
     "@tonconnect/ui-react": "^2.0.0-beta.2",
