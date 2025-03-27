@@ -1,7 +1,19 @@
 {
-  "url": "https://pokemon-tma.vercel.app",
-  "name": "Pokemon TMA",
-  "iconUrl": "https://pokemon-tma.vercel.app/pokemon-icon.png",
-  "termsOfUseUrl": "https://pokemon-tma.vercel.app/terms",
-  "privacyPolicyUrl": "https://pokemon-tma.vercel.app/privacy"
+  "url": "https://tma-pok.vercel.app",
+  "name": "AI Pokemons",
+  "iconUrl": "https://raw.githubusercontent.com/Psilokolala/TMApoke/refs/heads/master/Pokeball.png",
+  "termsOfUseUrl": "https://raw.githubusercontent.com/Psilokolala/TMApoke/master/terms.md",
+  "privacyPolicyUrl": "https://raw.githubusercontent.com/Psilokolala/TMApoke/master/privacy.md",
+  "items": [
+    {
+      "name": "ton_addr",
+      "required": true,
+      "multiple": false
+    },
+    {
+      "name": "ton_proof",
+      "required": true,
+      "multiple": false
+    }
+  ]
 } 
